@@ -283,11 +283,44 @@
 					<section class="wrapper style1 align-center" id ="RSVP">
 						<div class="inner medium">
 							<h2>RSVP</h2>
-                            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdCkagJvWztmVNw81_jcv0TF9DmvOwjacCitv0zulVZUfcsZw/viewform?embedded=true" width="640" height="1049" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+							<h3>Kindly respond by <b>June 15, 2022</b></h3>
+                                                <form method="post" action="#">
+                                                <div class="fields">
+                                                    <div class="field half">
+                                                        <label for="name">Name</label>
+                                                        <input type="text" name="name" id="name" value="" />
+                                                    </div>
+                                                    <div class="field half">
+                                                        <label for="email">Email</label>
+                                                        <input type="email" name="email" id="email" value="" />
+						    </div>
+                                                    <div class="field">
+                                                        <label for="attendance">Will you be joining us?</label>
+                                                        <select name="attendance" id="attendance">
+                                                            <option value="0">Will be there to celebrate</option>
+                                                            <option value="1">Will be toasting from afar</option>
+                                                        </select>
+						    </div>
+						    <div class="field">
+							<label for="guests">Please fill in each guest that will be attending (plus ones and/or family welcome!)</label>
+							<textarea name="guests" id="guests" rows="2"></textarea>
+						    </div>
+						    <div class="field">
+							<label for="dietary">Please indicate dietary restrictions and/or allergies for each guest</label>
+							<textarea name="dietary" id="dietary" rows="3" placeholder="e.g. Eura Nofshin: vegetarian"></textarea>
+						    </div>
+						    <div>
+					<h2> </h2>
+						    <ul class="actions">
+                                                    <li><input type="submit" name="submit" id="submit" value="Submit RSVP" /></li>
+						    </ul>
+						    </div>
+                                                 </form>
 						</div>
 					</section>
 
 				<!-- Footer -->
+				<!--
 					<footer class="wrapper style1 align-center">
 						<div class="inner">
 							<ul class="icons">
@@ -300,6 +333,7 @@
 							<p>&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 						</div>
 					</footer>
+				-->
 
 			</div>
 
