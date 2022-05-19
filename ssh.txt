@@ -1,1 +1,1 @@
- ssh ubuntu@34.230.18.74 -i LightsailDefaultKey-us-east-1.pem
+ ssh ubuntu@34.193.202.19 -i LightsailDefaultKey-us-east-1.pem
